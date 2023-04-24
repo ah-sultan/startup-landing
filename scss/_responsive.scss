@@ -1,0 +1,815 @@
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+
+    .hero {
+        .text-section {
+            .hero-heading {
+                font-size: 5.4rem;
+            }
+        }
+    }
+
+    .boost {
+        .text-section {
+            .header-section {
+                .heading {
+                    max-width: 100%;
+                    font-weight: 700;
+                    font-size: 3.2rem;
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+
+    .testimonial {
+
+        .header-section {
+            padding: 8rem 0 5rem;
+        }
+    }
+
+    .support {
+
+        .text-section {
+            padding-top: 21rem;
+
+            .heading {
+                font-size: 3.2rem;
+                line-height: 1.25;
+            }
+        }
+    }
+
+    .intro {
+        .header-section {
+            padding-top: 8rem;
+
+            .heading {
+                font-size: 3.2rem;
+                line-height: 1.25;
+                padding: 0 6.6rem;
+            }
+        }
+    }
+
+    .support {
+        padding-bottom: 12rem;
+    }
+
+}
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    .container {
+        max-width: 100%;
+        padding: 0 3rem;
+    }
+
+    // Hero Section ===========
+    .hero {
+        .text-section {
+            padding: 8rem 0 10rem;
+
+            .hero-heading {
+                font-size: 4rem;
+                line-height: 1.5;
+            }
+
+            .hero-peragraph {
+                width: 100%;
+                font-weight: 400;
+                font-size: 1.6rem;
+                line-height: 2.23;
+                color: #02073E;
+                margin: 2rem 0;
+            }
+
+            .hero-form {
+
+                form {
+
+                    .form-box {
+
+                        input {
+                            width: 31.5rem;
+                            padding: 1rem 2.4rem;
+                            line-height: 3rem;
+                        }
+
+                        .hero-cta-btn {
+                            padding: 1rem 2.4rem;
+                            background: #8D448B;
+                            font-size: 1.6rem;
+                            line-height: 3rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .img-section {
+            .hero-img {
+                position: unset;
+            }
+        }
+    }
+
+    // Features Section =======
+    .feature {
+        .card-section {
+            .feature-card {
+                .card-peragraph {
+                    padding: 0 6rem;
+                }
+            }
+        }
+    }
+
+    // Boost Section Start
+    .boost {
+
+        .img-section {
+            padding-top: 12rem;
+        }
+
+        .text-section {
+            padding: 21rem 0 4rem 0;
+
+            .header-section .heading {
+                font-size: 3.6rem;
+            }
+        }
+
+
+    }
+
+    // Intro Section ============
+    .intro {
+
+        .header-section {
+
+            .heading {
+                font-size: 3.6rem;
+                padding: 0;
+                max-width: 445px;
+                margin: 0 auto;
+
+            }
+
+            .peragraph {
+                font-size: 1.7rem;
+                margin: 2.4rem auto 0;
+                max-width: 546px;
+            }
+        }
+
+    }
+
+    // Testimonial Secton ==================
+
+    .testimonial {
+        .header-section {
+            padding: 6.5rem 0 2.5rem;
+        }
+
+        .client-rivew-text {
+
+            .client-rivewe {
+                font-size: 2.4rem;
+                line-height: 1.8;
+                margin-bottom: 4rem;
+                padding: 0 12.4rem;
+            }
+        }
+
+        .client-info-section {
+            max-width: 90%;
+        }
+
+    }
+
+    // Support Section =============
+
+    .support {
+        padding-bottom: 7.5rem;
+
+        .text-section {
+            padding-top: 16rem;
+
+            .heading {
+                font-size: 3.6rem;
+                line-height: 1.25;
+            }
+        }
+
+        .img-section {
+            padding-top: 9.7rem;
+        }
+    }
+
+    // Support Section =========
+
+    .footer {
+
+        .hire-developer {
+
+            .heading {
+                font-size: 2.4rem;
+                line-height: 1.6;
+            }
+        }
+    }
+
+
+}
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+
+    .sub-heading {
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 1;
+        margin: 1rem;
+    }
+
+    .heading {
+        font-size: 2.4rem;
+        line-height: 1.24;
+    }
+
+    // Hero Section ===================
+    .hero {
+        .text-section {
+            .hero-heading {
+                font-size: 3.6rem;
+                line-height: 1.4;
+            }
+
+            .sponsor {
+                flex-direction: column;
+                align-items: start;
+                row-gap: 1rem;
+            }
+        }
+    }
+
+    // Feature Section ================
+    .feature {
+
+        .card-section {
+
+            .feature-card {
+                margin: 4.5rem auto 0;
+            }
+        }
+    }
+
+    // Boost Section ==================
+    .boost {
+
+        .img-section {
+            padding-top: 8rem;
+        }
+
+        .text-section {
+            padding-top: 8rem;
+
+            .header-section {
+
+                .heading {
+                    font-size: 2.4rem;
+                }
+
+                .peragraph {
+                    margin: 1.5rem 0 3rem;
+                    font-size: 1.6rem;
+                    line-height: 1.8;
+                }
+            }
+
+            .boost-list {
+
+                .list-item {
+                    font-size: 1.6rem;
+                    line-height: 4.5rem;
+                }
+            }
+        }
+    }
+
+    //  intro Section =================
+    .intro {
+
+        .header-section {
+            .heading {
+                font-size: 2.4rem;
+                max-width: 30rem;
+            }
+
+            .peragraph {
+                font-size: 1.7rem;
+                margin: 2.4rem auto;
+            }
+        }
+
+        .content-section {
+
+            .play-btn {
+                width: 6.6rem;
+                height: 6.6rem;
+                font-size: 16px;
+
+                svg {
+                    width: 1.6rem;
+                }
+            }
+        }
+
+    }
+
+    // Testimonial Section ============
+    .testimonial {
+        .client-info-section {
+            .client-card {
+                max-width: fit-content;
+            }
+        }
+    }
+
+    // Suppport Section ===============
+    .support {
+        .text-section {
+            padding-top: 7.5rem;
+            text-align: center;
+
+            .heading {
+                font-size: 2.4rem;
+                line-height: 1.25;
+                max-width: 410px;
+                margin: 0 auto;
+            }
+
+            .peragraph {
+                max-width: 534px;
+                margin: 0 auto;
+                font-size: 1.5rem;
+                line-height: 1.8;
+            }
+        }
+
+        .img-section {
+            padding-top: 4.5rem;
+
+            img {
+                max-width: 50%;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    // BLog Section ===================
+    .blog {
+        padding-bottom: 8rem;
+
+        .card-section {
+            .blog-card {
+                width: 100%;
+                background: #fff;
+                border: 1px solid #F3F4F5;
+                border-radius: 1rem;
+                margin: 4.5rem auto 0;
+                box-shadow: 0px 5px 30px rgba(69, 88, 157, 0.1);
+
+
+                .card-content {
+                    .card-title {
+                        font-size: 1.7rem;
+                        margin-bottom: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    // Footer Section =================
+    .footer {
+
+        .hire-developer {
+            padding: 4.5rem 5rem;
+            margin-top: 0;
+
+            .heading {
+                font-size: 2rem;
+                line-height: 1.6;
+            }
+
+            .btn {
+                font-size: 1.5rem;
+                line-height: 2;
+                padding: 1rem 2.4rem;
+
+                &::before {
+                    top: -32px;
+                }
+            }
+        }
+
+        .footer-navbar {
+
+            .footer-nav {
+                column-gap: 3rem;
+                flex-basis: 100%;
+                margin: 2rem auto 0 !important;
+
+            }
+        }
+    }
+}
+
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+
+    .container {
+        padding: 0 1.5rem;
+    }
+
+    .heading {
+        font-size: 2.1rem;
+        line-height: 1.24;
+    }
+
+    // Header Section
+    .header {
+
+        .navbar {
+
+            .mobile-nav-wrapper {
+                transform-origin: left;
+                position: fixed;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                z-index: 200;
+                overflow-y: scroll;
+                padding: 3rem 3rem 4rem 3rem;
+                width: 32rem;
+                box-shadow: 2px 0 8px rgba(0, 0, 0, .15);
+                background: #fff;
+                display: flex;
+                flex-direction: column;
+                transform: scale(0);
+                overflow: hidden;
+                transition:all .3s ease-in-out;
+                -webkit-transform: scaleX(0);
+                -moz-transform: scaleX(0);
+                -ms-transform: scaleX(0);
+                -o-transform: scaleX(0);
+                -webkit-transition:all .3s ease-in-out;
+                -moz-transition:all .3s ease-in-out;
+                -ms-transition:all .3s ease-in-out;
+                -o-transition:all .3s ease-in-out;
+
+                .mobile-nav-close{
+                    font-size: 2.2rem;
+                    color: $textColor;
+                }
+
+                .navbar-nav {
+
+                    .nav-item {
+                        margin: 0;
+                    }
+                }
+
+                .navbar-btn {
+
+                    .nav-btn {
+                        display: block;
+                        background: $primaryColor;
+                        width: 100%;
+                        border: 0;
+                        color: $whiteColor;
+                    }
+                }
+            }
+            .showMobileNav{
+                transform: scaleX(1);
+                -webkit-transform: scaleX(1);
+                -moz-transform: scaleX(1);
+                -ms-transform: scaleX(1);
+                -o-transform: scaleX(1);
+            }
+        }
+    }
+
+    // Header Section
+    .hero {
+
+        .text-section {
+            padding: 4rem 0 0rem;
+
+            .hero-heading {
+                font-size: 3rem;
+            }
+
+            .hero-peragraph {
+                margin: 1.5rem 0 2rem;
+            }
+
+            .hero-form form {
+
+                .form-box {
+                    input {
+                        width: 24rem;
+                        padding: 1rem 2.4rem;
+                        line-height: 3rem;
+                    }
+
+                    .hero-cta-btn {
+                        padding: 1rem 1.8rem;
+                        line-height: 2.4rem;
+                    }
+                }
+            }
+
+            .sponsor {
+                margin-top: 3rem;
+            }
+        }
+
+        .img-section {
+            padding-top: 4rem;
+            text-align: center;
+
+            .hero-img {
+                position: unset;
+                width: 80%;
+            }
+        }
+
+    }
+
+    // Feature Section
+    .feature {
+
+        .card-section {
+            .feature-card {
+                margin: 4.5rem auto 0;
+
+                .card-icon {
+                    img {
+                        width: 8rem;
+                    }
+                }
+            }
+        }
+    }
+
+    // Boost Section
+    .boost {
+        .img-section {
+            padding-top: 3rem;
+            text-align: center;
+        }
+
+        .text-section {
+            padding: 0 2rem;
+
+            .header-section {
+                text-align: center;
+
+                .heading {
+                    font-size: 2.1rem;
+                }
+            }
+        }
+    }
+
+    .intro {
+
+        .header-section {
+            padding-top: 7rem;
+
+            .heading {
+                max-width: 100%;
+                font-size: 2.1rem;
+                padding: 0;
+            }
+
+            .peragraph {
+                font-size: 1.6rem;
+                margin: 1.5rem auto;
+            }
+        }
+    }
+
+    // Testimonial Section
+    .testimonial {
+
+        .client-rivew-text {
+
+            .client-rivewe {
+                font-size: 1.8rem;
+                line-height: 1.8;
+                margin-bottom: 4rem;
+                padding: 0 4rem;
+            }
+        }
+
+        .client-info-section {
+
+            .client-card {
+
+                .card-body {
+
+                    .client-info {
+                        .client-name {
+                            font-size: 1.6rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    // Support Section
+    .support {
+
+        .text-section {
+
+            .heading {
+                font-size: 2.1rem;
+                max-width: 100%;
+            }
+
+            .peragraph {
+                padding: 2.5rem 34px 0;
+                max-width: 100%;
+            }
+        }
+    }
+
+    // Footer Section
+    .footer {
+        .heading {
+            margin-bottom: 5rem;
+
+            br {
+                display: none;
+            }
+        }
+    }
+}
+
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+    .hero {
+
+        .text-section {
+
+            .hero-form {
+
+                form {
+
+                    .form-box {
+                        input {
+                            width: 22rem;
+                            padding: 1rem 1.4rem;
+                        }
+
+                        .hero-cta-btn {
+                            padding: 1rem 1.2rem;
+                            line-height: 2.4rem;
+                        }
+                    }
+                }
+            }
+
+            .sponsor {
+
+                .sponsor-brand {
+                    column-gap: 1rem;
+
+                    img {
+                        max-width: 80%;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .feature {
+
+        .card-section {
+            .feature-card {
+
+                .card-peragraph {
+                    padding: 0 2rem;
+                }
+            }
+        }
+    }
+
+    .support {
+
+        .img-section {
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+
+// `xsm` applies to xx-small devices (portrait phones, less than 420px)
+@media (max-width: 420.98px) {
+
+    // Hero Section
+    .hero {
+
+        .text-section {
+
+            .hero-form form {
+                .form-box {
+                    input {
+                        width: 21rem;
+                        padding: 1rem;
+                        margin-right: 1rem;
+                        line-height: 1.6;
+                    }
+
+                    .hero-cta-btn {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+
+        .hero .img-section .hero-img {
+            position: unset;
+            width: 100%;
+        }
+    }
+
+    // Boost Section
+    .boost {
+        .text-section {
+            padding: 0;
+        }
+    }
+
+    // intro section
+
+    .intro {
+        .header-section {
+            .peragraph {
+                max-width: 100%;
+                padding: 0;
+            }
+        }
+
+        .content-section {
+            .play-btn {
+                width: 4.4rem;
+                height: 4.4rem;
+
+                svg {
+                    width: 1.3rem;
+                }
+            }
+        }
+    }
+
+    // Testimonial section
+    .testimonial {
+
+        .client-rivew-text {
+            .client-rivewe {
+                padding: 0;
+            }
+        }
+    }
+
+    // Suppot Section
+    .support {
+        .text-section {
+            .peragraph {
+                padding: 2.5rem 0 0;
+            }
+        }
+    }
+
+    // Support Section
+    .footer {
+        .footer-navbar {
+            .footer-nav {
+                flex-direction: column;
+            }
+        }
+    }
+}

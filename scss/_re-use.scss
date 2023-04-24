@@ -1,0 +1,58 @@
+@import url(./_color.scss);
+
+
+
+.btn,
+.btn:hover,
+.btn:focus,
+.btn:link {
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    letter-spacing: -0.15px;
+    color: $primaryColor;
+    border: 0;
+    padding: 0;
+    margin: 0;
+
+}
+
+.sub-heading {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 4rem;
+    text-transform: capitalize;
+    color: $primaryColor;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 5.5rem;
+    letter-spacing: -1.5px;
+    color: $headingColor;
+}
+
+.peragraph {
+    font-weight: 400;
+    font-size: 1.7rem;
+    line-height: 3.4rem;
+    color: $textColor;
+}
+
+
+.card-title {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color: $headingColor;
+}
+
+.card-peragraph {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.8rem;
+    text-align: center;
+    color: $textColor;
+}
