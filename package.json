@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "sass": "sass ./scss/style.scss ./css/style.css --watch"
+    "sass": "sass ./scss/style.scss ./css/style.css --watch",
+    "start": "npm install"
+
   },
   "keywords": [],
   "author": "",
